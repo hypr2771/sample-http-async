@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+    # Callback called before view rendering !
+    open-in-view: false
+
+omdbapi:
+  apikey: 2a002f44
